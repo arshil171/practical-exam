@@ -55,6 +55,9 @@
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
+       
+        position: relative;
+        top: 50px;
       }
       .profile {
         width: fit-content;
@@ -69,6 +72,7 @@
         margin: 20px;
         max-height: 100px;
         transition: 0.5s ease-in-out;
+       
       }
       .profile img {
         width: 40px;
